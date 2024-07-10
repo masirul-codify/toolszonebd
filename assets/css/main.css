@@ -3736,9 +3736,11 @@ input[type=number] {
 
 @media screen and (max-width: 1199px) {
     .footer-section {
-        padding: 120px 0;
-        background-color: hsl(var(--black)) !important;
-        background-image: none;
+        /* padding: 120px 0;
+        background-color: hsl(var(--dark-black-three)) !important;
+        background-image: none !important; */
+        background-image: url(../images/shapes/footer-bg-dark.png);
+        background-color: var(--dark-black-three);
     }
 }
 
@@ -8851,7 +8853,7 @@ input[type=number] {
 
 [data-theme=light] .footer-section {
     background-image: url(../images/shapes/footer-bg-dark.png);
-    background-color: var(--dark-black-one);
+    background-color: var(--dark-black-three); 
 }
 
 [data-theme=light] .bottom-footer {
