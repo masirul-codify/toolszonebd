@@ -3490,6 +3490,18 @@ input[type=number] {
 /* Submenu End */
 /* Header Menu and Submenu Css End */
 /* ================================= Header Css End =========================== */
+
+
+/* Dashboard css start */
+.dashboard-body__item .table.style-two tbody tr td { 
+ width: 200px;
+}
+.dashboard-body__item .table.style-two tbody tr td img{
+ width: 100%;
+ height: 80px;
+} 
+/* Dashboard css End */
+
 /* ============ Search box ============= */
 .search-box {
     position: relative;
